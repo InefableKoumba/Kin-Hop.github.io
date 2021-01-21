@@ -1,0 +1,225 @@
+.profile-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 85vw;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.profile-container .left-part {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+.profile-container .right-part {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  text-align: center;
+}
+
+.profile-container .right-part .container {
+  padding-top: 2rem;
+  margin-top: 10rem;
+  background-color: #f5f5f5;
+  border-radius: 2rem;
+  -webkit-box-shadow: 0.1rem 0.2rem 0.8rem 0.01rem rgba(0, 0, 0, 0.685);
+          box-shadow: 0.1rem 0.2rem 0.8rem 0.01rem rgba(0, 0, 0, 0.685);
+  padding-bottom: 4rem;
+}
+
+.profile-container .right-part h5 {
+  font-size: 2.4rem;
+  color: #0D5481;
+  margin-bottom: 2rem;
+}
+
+.profile-container .right-part .song {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin: 0 auto;
+  padding-left: .4rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0.1rem 0.2rem 0.8rem 0.01rem rgba(0, 0, 0, 0.685);
+          box-shadow: 0.1rem 0.2rem 0.8rem 0.01rem rgba(0, 0, 0, 0.685);
+  width: 90%;
+  height: 7rem;
+  font-size: 1.5rem;
+  font-family: "Segoe UI";
+}
+
+.profile-container .right-part .song img {
+  border-radius: 50%;
+  height: 85%;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.profile-container .right-part .song:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+.card-info {
+  font-family: "Segoe UI";
+  -webkit-box-shadow: 0.1rem 0.2rem 0.8rem 0.01rem rgba(0, 0, 0, 0.685);
+          box-shadow: 0.1rem 0.2rem 0.8rem 0.01rem rgba(0, 0, 0, 0.685);
+  max-width: 50rem;
+  background-color: #f5f5f5;
+  border-radius: 2rem;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10rem;
+  font-size: 1.6rem;
+  padding: 4rem;
+  padding-top: 9rem;
+}
+
+.card-info .profil__img {
+  position: absolute;
+  margin: 0 auto;
+  top: -5rem;
+  height: 10rem;
+  border-radius: 50%;
+  left: 40%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-info .profil__img .name {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #0D5481;
+}
+
+.card-info .profil__img img {
+  border-radius: inherit;
+  height: 100%;
+  margin-bottom: 2rem;
+}
+
+.card-info .info-list {
+  margin-top: 2rem;
+}
+
+.card-info .info-list-item {
+  line-height: 3rem;
+}
+
+.card-info .btn-modify-info {
+  font-size: 1.6rem;
+  background-color: #0D5481;
+  color: #fff;
+  width: 60%;
+  margin: 0 auto;
+  font-weight: 600;
+  padding: 1rem;
+  display: block;
+  text-align: center;
+  margin-top: 3rem;
+  border-radius: 1rem;
+}
+
+.card-password {
+  -webkit-box-shadow: 0.1rem 0.2rem 0.8rem 0.01rem rgba(0, 0, 0, 0.685);
+          box-shadow: 0.1rem 0.2rem 0.8rem 0.01rem rgba(0, 0, 0, 0.685);
+  max-width: 50rem;
+  background-color: #f5f5f5;
+  border-radius: 2rem;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 4rem;
+  text-align: center;
+  padding: 4rem;
+}
+
+.card-password h5 {
+  font-size: 2.2rem;
+  color: #0D5481;
+}
+
+.card-password form {
+  margin-top: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-password form input {
+  padding: 1rem;
+  border-radius: 1.1rem;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+}
+
+.card-password form input:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+.card-password form button {
+  border: none;
+  padding: 1.2rem;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #0D5481;
+  color: #fff;
+  border-radius: 1.2rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .profile-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .song {
+    font-size: 1.2rem !important;
+  }
+  input {
+    font-size: 1.1rem !important;
+  }
+  .card-info .profil__img {
+    left: 38%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card-info .profil__img {
+    left: 36%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .card-info .profil__img {
+    left: 34%;
+  }
+}
+/*# sourceMappingURL=profil.css.map */

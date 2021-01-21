@@ -1,0 +1,41 @@
+input{
+    font-size: 1.6rem !important;
+    padding: 1rem !important;
+    border-radius: .4rem !important;
+}
+.card-header{
+    // background-color: red !important;
+    padding: 2rem 1.5rem !important;
+    border-radius: 1.4rem !important;
+    margin: 0 auto;
+    // min-height: 70vh;
+    width: 90%;
+
+     label,h6,button,a,li, select{
+        font-size: 1.6rem !important;
+     }
+     p{
+         font-size: 1.4rem;
+     }
+     .rounded {
+        border-radius: .4rem !important;
+    }
+}
+
+
+
+.nav-pills .nav-link {
+    color: #555
+}
+
+.nav-pills .nav-link.active {
+    color: white
+}
+
+input[type="radio"] {
+    margin-right: 5px
+}
+
+.bold {
+    font-weight: bold
+}

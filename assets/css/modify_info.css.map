@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,IAAI;CAKnB;;AARD,AAKI,eALW,CAKT,CAAC,CAAA;EACC,SAAS,EAAE,iBAAiB;CAC/B",
+    "sources": [
+        "modify_info.scss"
+    ],
+    "names": [],
+    "file": "modify_info.css"
+}

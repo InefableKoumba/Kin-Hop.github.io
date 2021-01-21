@@ -1,0 +1,10 @@
+.page-container {
+  max-width: 70vw;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.page-container * {
+  font-size: 1.6rem !important;
+}
+/*# sourceMappingURL=modify_info.css.map */

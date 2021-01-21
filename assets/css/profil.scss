@@ -1,0 +1,214 @@
+.profile-container {
+    display: flex;
+    max-width: 85vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    & .left-part {
+        flex-basis: 60%;
+        // background-color: red;
+    }
+
+    & .right-part {
+        flex-basis: 40%;
+        
+        // padding-top: 8rem;
+        text-align: center;
+
+        & .container{
+            padding-top: 2rem;
+            margin-top:10rem;
+            background-color: #f5f5f5;
+            border-radius: 2rem;
+            box-shadow: .1rem .2rem .8rem .01rem  rgba(0, 0, 0, 0.685);
+            padding-bottom: 4rem;
+        }
+
+        & h5{
+            font-size: 2.4rem;
+            color: #0D5481;
+            margin-bottom: 2rem;
+        }
+
+        & .song {
+            display: flex;
+            align-items: center;
+            position: relative;
+            margin: 0 auto;
+            padding-left: .4rem;
+            border-radius: 2rem;
+            background-color: #fff;
+            box-shadow: .1rem .2rem .8rem .01rem  rgba(0, 0, 0, 0.685);
+            width: 90%;
+            height: 7rem;
+            font-size: 1.5rem;
+            font-family: "Segoe UI";
+
+            & img {
+                border-radius: 50%;
+                height: 85%;
+                width: auto;
+                margin-right: 1rem;
+            }
+        }
+        & .song:not(:last-child){
+            margin-bottom: 1.2rem;
+        }
+
+    }
+
+    justify-content: space-between;
+}
+
+
+.card-info {
+    font-family: "Segoe UI";
+    box-shadow: .1rem .2rem .8rem .01rem  rgba(0, 0, 0, 0.685);
+    max-width: 50rem;
+    background-color: #f5f5f5;
+    border-radius: 2rem;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10rem;
+    font-size: 1.6rem;
+    padding: 4rem;
+    padding-top: 9rem;
+
+    & .profil__img {
+        position: absolute;
+        margin: 0 auto;
+        // margin-top: -50%;
+        top: -5rem;
+        height: 10rem;
+        // width: 10rem;
+        border-radius: 50%;
+        left: 40%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        & .name {
+            font-size: 2.1rem;
+            font-weight: 600;
+            color: #0D5481;
+
+        }
+
+        & img {
+            border-radius: inherit;
+            // width: 100%;
+            height: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
+
+    & .info-list {
+        margin-top: 2rem;
+
+        &-item {
+
+            line-height: 3rem;
+        }
+    }
+
+    & .btn-modify-info {
+        font-size: 1.6rem;
+        // border: solid 1.7px #0D5481;
+        background-color: #0D5481;
+        color: #fff;
+        width: 60%;
+        margin: 0 auto;
+        font-weight: 600;
+        padding: 1rem;
+        display: block;
+        text-align: center;
+        margin-top: 3rem;
+        border-radius: 1rem;
+    }
+}
+
+.card-password {
+    box-shadow: .1rem .2rem .8rem .01rem  rgba(0, 0, 0, 0.685);
+    max-width: 50rem;
+    background-color: #f5f5f5;
+    border-radius: 2rem;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 4rem;
+    text-align: center;
+    padding: 4rem;
+    // padding-top: 9rem;
+
+    & h5 {
+        font-size: 2.2rem;
+        color: #0D5481;
+    }
+
+    & form {
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        & input {
+            padding: 1rem;
+            border-radius: 1.1rem;
+            border: none;
+            outline: none;
+            font-size: 1.6rem;
+        }
+
+        & input:not(:last-child) {
+            margin-bottom: 1.2rem;
+        }
+
+        button {
+            border: none;
+            padding: 1.2rem;
+            width: 50%;
+            margin: 0 auto;
+            background-color: #0D5481;
+            color: #fff;
+            border-radius: 1.2rem;
+            margin-top: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width:1100px){
+    .profile-container{
+        flex-direction: column;
+    }
+
+    
+}
+@media screen and (max-width:600px){
+    .song{
+        font-size: 1.2rem !important;
+    }
+    input{
+        font-size: 1.1rem !important;
+    }
+    .card-info .profil__img{
+        left:  38%;
+    }
+
+    
+}
+@media screen and (max-width:480px){
+    
+    .card-info .profil__img{
+        left:  36%;
+    }
+
+    
+}
+@media screen and (max-width:350px){
+    
+    .card-info .profil__img{
+        left:  34%;
+    }
+
+    
+}
